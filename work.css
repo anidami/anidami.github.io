@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(cars.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after {
+    width: 100%;
+}
+.content{
+    width: 99%;
+    position: absolute;
+    top: 20%;
+    text-align:left;
+    color: #fff;
+    margin-left: 1%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 40%;
+    margin: px;
+    float: left;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 4px;
+    text-align: left;
+    color: white;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.black-text {
+    color: black;
+}
+
+#black-text {
+    color: black;
+}
+
+.content1{
+    width: 99%;
+    position: absolute;
+    top: 55%;
+    text-align:left;
+    color: #fff;
+    margin-left: 1%;
+}
+
+.content2{
+    width: 49%;
+    position: absolute;
+    top: 20%;
+    text-align: left;
+    color: #fff;
+    margin-left: 50%;
+}
+
+.float-right {
+    float: right; /* Элемент будет выравниваться справа */
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both; /* Очистка плавающих элементов */
+}
+
+.content3{
+    width: 49%;
+    position: absolute;
+    top: 50%;
+    text-align: left;
+    color: #fff;
+    margin-left: 50%;
+}
